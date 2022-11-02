@@ -1,0 +1,40 @@
+{
+  "name": "@igappstore/vue-quote-app",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prebuild": "rimraf ./dist"
+  },
+  "dependencies": {
+    "@igappstore/core": "1.0.0",
+    "@igotcha/webpack-config": "1.0.0",
+    "animate.css": "^4.1.0",
+    "core-js": "^3.6.5",
+    "hover-effect": "^1.1.0",
+    "vue": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "Chrome >= 30"
+  ],
+  "devDependencies": {
+    "@vue/babel-preset-app": "^4.4.6",
+    "@vue/cli-plugin-babel": "^4.4.6"
+  }
+}

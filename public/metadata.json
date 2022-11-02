@@ -1,0 +1,108 @@
+{
+  "name": {
+    "en": "Quotes",
+    "fr": "Quotes"
+  },
+  "category": "Information",
+  "description": {
+    "en": "This is a quotes app.",
+    "fr": "Ceci est une application quote."
+  },
+  "iconName": "https://img.icons8.com/clouds/500/000000/quote-left.png",
+  "thumbnail": "https://img.icons8.com/clouds/500/000000/quote-left.png",
+  "formFields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "text",
+      "component": "VTextField",
+      "model": "quotesAppName",
+      "options": [
+        "Quotes"
+      ]
+    },
+    {
+      "name": "topic",
+      "label": "Topic",
+      "type": "select",
+      "component": "VSelect",
+      "model": "topic",
+      "options": [
+        {
+          "text": "Random",
+          "value": "random"
+        },
+        {
+          "text": "Inspirational",
+          "value": "inspirational"
+        },
+        {
+          "text": "Tinybuddha",
+          "value": "tinybuddha"
+        },
+        {
+          "text": "Peace",
+          "value": "peace"
+        },
+        {
+          "text": "Brainyquote",
+          "value": "brainyquote"
+        },
+        {
+          "text": "Wisdom",
+          "value": "wisdom"
+        }
+      ]
+    },
+    {
+      "name": "duration",
+      "label": "Duration",
+      "type": "select",
+      "component": "VSelect",
+      "model": "duration",
+      "options": [
+        {
+          "text": "10 Seconds",
+          "value": "10000"
+        },
+        {
+          "text": "12 Seconds",
+          "value": "12000"
+        },
+        {
+          "text": "15 Seconds",
+          "value": "15000"
+        },
+        {
+          "text": "20 Seconds",
+          "value": "20000"
+        },
+        {
+          "text": "25 Seconds",
+          "value": "25000"
+        },
+        {
+          "text": "1 Minute",
+          "value": "60000"
+        }
+      ]
+    },
+    {
+      "name": "background",
+      "label": "Background",
+      "type": "select",
+      "component": "VSelect",
+      "model": "background",
+      "options": [
+        {
+          "text": "Image",
+          "value": "image"
+        },
+        {
+          "text": "Pattern",
+          "value": "pattern"
+        }
+      ]
+    }
+  ]
+}
